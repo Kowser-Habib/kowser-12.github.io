@@ -1,0 +1,356 @@
+/* Extra small devices  start(portrait phones, less than 576px)*/
+@media (max-width: 320px) {
+    .header-text h2 {
+        font-size: 25px;
+        padding  : 20px;
+    }
+
+    .header-part {
+        height: 66vh;
+    }
+
+    .personal-part {
+        height: 700px;
+    }
+
+    .experience-part .texttow-part {
+        margin-top: 10px;
+    }
+
+    .experience-part .textone-part h2::after {
+        width     : 214px;
+        margin-top: 158px;
+    }
+
+    .experience-part .texttow-part h2::after {
+        width     : 216px;
+        margin-top: 158px;
+    }
+
+    .works {
+        margin-left: 115px;
+    }
+
+    .six {
+        margin-left: -88px;
+    }
+
+    .seven {
+        margin-left: -90px;
+    }
+
+    .quatation-part .text p {
+        font-size: 12px;
+        padding  : 20px 0px 20px 0;
+    }
+}
+
+/* Extra small devices  end(portrait phones, less than 576px)*/
+/*Responsive for 480px to 575.98px device start*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 480px) and (max-width: 575.98px) {
+    .header-part {
+        height: 70vh;
+    }
+
+    .personal-part {
+        padding   : 100px;
+        margin-top: -98px;
+    }
+
+    .first {
+        margin-left  : 24%;
+        margin-bottom: 5px;
+    }
+
+    .second {
+        margin-left  : 24%;
+        margin-bottom: 5px;
+    }
+
+    .third {
+        margin-left  : 24%;
+        margin-bottom: 5px;
+    }
+
+    .fourth {
+        margin-left  : 24%;
+        margin-bottom: 5px;
+    }
+
+    .experience-part .textone-part {
+        margin-bottom: 10px;
+    }
+
+    .experience-part .textone-part h2::after {
+        width: 368px;
+    }
+
+    .experience-part .texttow-part h2::after {
+        width: 368px;
+    }
+
+    .one {
+        margin-left  : -54px;
+        margin-bottom: 5px;
+    }
+
+    .tow {
+        margin-left  : -54px;
+        margin-bottom: 5px;
+    }
+
+    .three {
+        margin-left  : -54px;
+        margin-bottom: 5px;
+    }
+
+    .four {
+        margin-left  : -54px;
+        margin-bottom: -15px;
+    }
+
+    .five {
+        margin-left  : -176px;
+        margin-bottom: -15px;
+    }
+
+    .six {
+        margin-left  : -54px;
+        margin-bottom: -15px;
+    }
+
+    .seven {
+        margin-left  : -54px;
+        margin-bottom: 5px;
+    }
+
+    .quatation-part .text p {
+        font-size: 12px;
+        padding  : 20px 70px 20px 0;
+    }
+
+    .btn-custom {
+        margin-left: 0px;
+        margin-top : 0px;
+    }
+
+    .personal-part {
+        height: 710px;
+    }
+
+}
+
+/*Responsive for 480px to 575.98px device end*/
+/*Responsive for 576px to 767.98px device start*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .first {
+        margin-left  : 134px;
+        margin-bottom: 5px;
+    }
+
+    .second {
+        margin-left  : 134px;
+        margin-bottom: 5px;
+    }
+
+    .third {
+        margin-left  : 134px;
+        margin-bottom: 5px;
+    }
+
+    .fourth {
+        margin-left  : 134px;
+        margin-bottom: 5px;
+    }
+
+    .experience-part .textone-part {
+        margin-bottom: 10px;
+    }
+
+    .one {
+        margin-left  : -20px;
+        margin-bottom: 5px;
+    }
+
+    .tow {
+        margin-left  : -20px;
+        margin-bottom: 5px;
+    }
+
+    .three {
+        margin-left  : -20px;
+        margin-bottom: 5px;
+    }
+
+    .four {
+        margin-left  : -20px;
+        margin-bottom: -15px;
+    }
+
+    .five {
+        margin-left  : -140px;
+        margin-bottom: -15px;
+    }
+
+    .six {
+        margin-left  : -20px;
+        margin-bottom: -15px;
+    }
+
+    .seven {
+        margin-left  : -20px;
+        margin-bottom: 5px;
+    }
+
+    .quatation-part .text p {
+        padding: 20px 20px 20px 0;
+    }
+
+    .btn-custom {
+        margin-left: 2px;
+        margin-top : 6px;
+    }
+
+    .personal-part {
+        height: 740px;
+    }
+
+}
+
+/*Responsive for 576px to 767.98px device end*/
+/*Responsive for 768px to 991.98px device start*/
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .btn-custom {
+        margin-left: 182px;
+        width      : 322px;
+        margin-top : 20px;
+    }
+
+    .working-part {
+        margin-top: -50px;
+    }
+
+    .first {
+        margin-left  : 215px;
+        margin-bottom: 5px;
+    }
+
+    .second {
+        margin-left  : 215px;
+        margin-bottom: 5px;
+    }
+
+    .third {
+        margin-left  : 215px;
+        margin-bottom: 5px;
+    }
+
+    .fourth {
+        margin-left  : 215px;
+        margin-bottom: 5px;
+    }
+
+    .experience-part .texttow-part {
+        margin-top: 10px;
+    }
+
+    .one {
+        margin-left  : 50px;
+        margin-bottom: 5px;
+    }
+
+    .tow {
+        margin-left  : 50px;
+        margin-bottom: 5px;
+    }
+
+    .three {
+        margin-left  : 50px;
+        margin-bottom: 5px;
+    }
+
+    .four {
+        margin-left  : 50px;
+        margin-bottom: -15px;
+    }
+
+    .five {
+        margin-left  : -70px;
+        margin-bottom: -15px;
+    }
+
+    .six {
+        margin-left  : 50px;
+        margin-bottom: -15px;
+    }
+
+    .seven {
+        margin-left  : 50px;
+        margin-bottom: 5px;
+    }
+
+    .quatation-part .text p {
+        font-size: 12px;
+        padding  : 20px 245px 20px 0;
+    }
+}
+
+/*Responsive for 768px to 991.98px device end*/
+/*Responsive for 992px to 1199.98px device start*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .btn-custom {
+        margin-left: 480px;
+        margin-top : -300px;
+    }
+
+    .working-part {
+        margin-left: -40px;
+    }
+
+    .one {
+        width : 190px;
+        height: 190px;
+    }
+
+    .tow {
+        width : 190px;
+        height: 190px;
+    }
+
+    .three {
+        width : 190px;
+        height: 190px;
+    }
+
+    .four {
+        width : 190px;
+        height: 190px;
+    }
+
+    .five {
+        width : 388px;
+        height: 190px;
+    }
+
+    .six {
+        width      : 190px;
+        height     : 190px;
+        margin-left: 108px;
+    }
+
+    .seven {
+        width      : 190px;
+        height     : 190px;
+        margin-left: 108px;
+    }
+
+    .quatation-part .text p {
+        padding: 20px 520px 20px 0;
+    }
+}
+
+/*Responsive for 992px to 1199.98px device end*/

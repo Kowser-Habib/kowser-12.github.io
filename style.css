@@ -1,0 +1,577 @@
+body {
+  margin : 0;
+  padding: 0;
+}
+
+/*html part start*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*html part end*/
+/*header part start*/
+.header-part {
+  background-image : url(img/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  height           : 100vh;
+  padding          : 20px 0;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  font-size       : 30px;
+  color           : #ffffff;
+  padding         : 4px;
+  border-radius   : 0;
+  border          : 2px solid #ffffff;
+}
+
+.custom ul li a {
+  color    : #ffffff !important;
+  font-size: 20px;
+}
+
+/*header part end*/
+/*header-text part start*/
+.header-text {
+  text-align: center;
+  margin-top: 16%;
+  position  : relative;
+}
+
+.header-text::before {
+  content         : '';
+  width           : 400px;
+  height          : 4px;
+  background-color: #98b4be;
+  position        : absolute;
+  margin-left     : -204px;
+  bottom          : 115px;
+}
+
+.header-text::after {
+  content         : '';
+  width           : 400px;
+  height          : 4px;
+  background-color: #98b4be;
+  position        : absolute;
+  margin-left     : -204px;
+  top             : 65px;
+}
+
+.header-text h2 {
+  color         : #ffffff;
+  font-size     : 50px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-family   : PlayfairDisplay Regular;
+}
+
+
+.header-text h5 {
+  color     : #ffffff;
+  font-size : 20px;
+  margin-top: 2%;
+}
+
+/*header text part end*/
+/*personal area  start*/
+.personal-part {
+  padding: 70px 0;
+}
+
+.personal-part h4 {
+  font-size: 18px;
+  color    : #999595;
+}
+
+.personal-part h6 {
+  font-size  : 16px;
+  color      : #9ea09e;
+  font-family: 'roboto', bold;
+  margin-top : 50px;
+}
+
+.personal-part h5 {
+  font-size  : 16px;
+  color      : #8e8f8e;
+  font-family: 'roboto', bold;
+  margin-top : 50px;
+}
+
+.btn-custom {
+  border-radius   : 0;
+  background-color: #e2354f;
+  margin-left     : 570px;
+  margin-top      : -600px;
+  color           : #ffffff;
+  width           : 150px;
+  height          : 40px;
+  border          : none;
+  text-decoration : none;
+  display         : block;
+  margin-top      : -330px;
+  cursor          : pointer;
+
+}
+
+.btn-custom a {
+  color          : #ffffff;
+  text-decoration: none;
+  cursor         : pointer;
+}
+
+/*personal area end*/
+/*working part start*/
+.working-part {
+  background-color: #f7f7f7;
+  text-align      : center;
+  margin-top      : 290px;
+  padding         : 50px 0;
+
+}
+
+.working-part .text-part {
+  margin-top: 30px;
+  padding   : 20px 0;
+}
+
+.working-part .text-part h6 {
+  color: #828286;
+}
+
+.first {
+  background-image : url(img/img/itme01.jpg);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  text-align       : center;
+  width            : 250px;
+  height           : 250px;
+  padding          : 100px;
+  color            : #ffffff;
+  font-size        : 30px;
+  text-transform   : uppercase;
+  cursor           : pointer;
+}
+
+.second {
+  background-image : url(img/img/itme02.jpg);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  text-align       : center;
+  width            : 250px;
+  height           : 250px;
+  padding          : 100px;
+  color            : #ffffff;
+  font-size        : 30px;
+  text-transform   : uppercase;
+  cursor           : pointer;
+}
+
+.third {
+  background-image : url(img/img/itme03.jpg);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  text-align       : center;
+  width            : 250px;
+  height           : 250px;
+  padding          : 100px;
+  color            : #ffffff;
+  font-size        : 30px;
+  text-transform   : uppercase;
+  cursor           : pointer;
+}
+
+.fourth {
+  background-image : url(img/img/itme04.jpg);
+  background-repeat: no-repeat;
+  background-size  : cover;
+  text-align       : center;
+  width            : 250px;
+  height           : 250px;
+  padding          : 100px;
+  color            : #ffffff;
+  font-size        : 30px;
+  text-transform   : uppercase;
+  cursor           : pointer;
+}
+
+.first h6 {
+  margin-top: 20px;
+}
+
+.second h6 {
+  margin-top: 20px;
+}
+
+.third h6 {
+  margin-top: 20px;
+}
+
+.fourth h6 {
+  margin-top: 20px;
+}
+
+/*working part end*/
+/*experience part start*/
+/*text one part start*/
+.experience-part {
+  padding         : 50px 0;
+  background-color: #4b7788;
+}
+
+.experience-part .textone-part {
+  background-color: #55667e;
+  padding         : 40px 30px;
+}
+
+.experience-part .textone-part h2 {
+  font-size     : 16px;
+  color         : #ffffff;
+  text-transform: uppercase;
+  font-family   : 'raleway', bold;
+  padding       : 10px;
+  position      : relative;
+}
+
+.experience-part .textone-part h2::after {
+  position        : absolute;
+  content         : '';
+  width           : 420px;
+  height          : 1px;
+  background-color: #dddddd;
+  margin-left     : -151px;
+  margin-top      : 140px;
+}
+
+.experience-part .textone-part h4 {
+  font-size  : 12px;
+  color      : #ffffff;
+  font-family: 'raleway', bold;
+  padding    : 10px;
+}
+
+.experience-part .textone-part h5 {
+  font-size  : 10px;
+  color      : #c9cbdb;
+  font-family: 'raleway', bold;
+  padding    : 0 10px;
+}
+
+.experience-part .textone-part p {
+  font-size  : 10px;
+  color      : #c9cbdb;
+  font-family: 'raleway', bold;
+  padding    : 0 10px;
+}
+
+/*text one part end*/
+/*text tow part start*/
+.experience-part .texttow-part {
+  background-color: #55667e;
+  padding         : 40px 30px;
+}
+
+.experience-part .texttow-part h2 {
+  font-size     : 16px;
+  color         : #ffffff;
+  text-transform: uppercase;
+  font-family   : 'raleway', bold;
+  padding       : 10px;
+  position      : relative;
+}
+
+.experience-part .texttow-part h2::after {
+  position        : absolute;
+  content         : '';
+  width           : 420px;
+  height          : 1px;
+  background-color: #dddddd;
+  margin-left     : -94px;
+  margin-top      : 140px;
+}
+
+.experience-part .texttow-part h4 {
+  font-size  : 12px;
+  color      : #ffffff;
+  font-family: 'raleway', bold;
+  padding    : 10px;
+}
+
+.experience-part .texttow-part h5 {
+  font-size  : 10px;
+  color      : #c9cbdb;
+  font-family: 'raleway', bold;
+  padding    : 0 10px;
+}
+
+.experience-part .texttow-part p {
+  font-size  : 10px;
+  color      : #c9cbdb;
+  font-family: 'raleway', bold;
+  padding    : 0 10px;
+}
+
+/*text tow part end*/
+/*experience part end*/
+/*latest work part start*/
+.latestwork-text {
+  text-align: center;
+  margin    : 40px 0;
+}
+
+.latestwork-text h1 {
+  margin-bottom: 20px;
+  font-family  : 'Raleway', bold;
+}
+
+.latestwork-text h6 {
+  font-size: 15px;
+  color    : #9e9ea0;
+}
+
+.works {
+  margin-left: 154px;
+}
+
+.one {
+  width           : 220px;
+  height          : 220px;
+  background-color: #44c4fb;
+  margin-left     : -90px;
+}
+
+.tow {
+  width           : 220px;
+  height          : 220px;
+  background-color: #835aeb;
+  margin-left     : -90px;
+}
+
+.three {
+  width           : 220px;
+  height          : 220px;
+  background-color: #002453;
+  margin-left     : -90px;
+}
+
+.four {
+  width           : 220px;
+  height          : 220px;
+  background-color: #ff2b4a;
+  margin-left     : -90px;
+}
+
+.five {
+  width           : 463px;
+  height          : 220px;
+  background-color: #8e68ed;
+  margin-left     : -90px;
+  margin-top      : 20px;
+}
+
+.six {
+  width           : 220px;
+  height          : 220px;
+  background-color: #002453;
+  margin-left     : 154px;
+  margin-top      : 20px;
+}
+
+.seven {
+  width           : 220px;
+  height          : 220px;
+  background-color: #ff2f4e;
+  margin-left     : 154px;
+  margin-top      : 20px;
+}
+
+.latestwork-part {
+  padding: 30px 0;
+
+}
+
+/*latest work part end*/
+/*quatation part start*/
+.quatation-part {
+  background-color: #64cbc0;
+  padding         : 50px 0;
+}
+
+.alltext {
+  margin-left: 85px;
+}
+
+.quatation-part .quatation {
+  font-size: 50px;
+}
+
+.quatation-part .text p {
+  font-size: 12px;
+  padding  : 20px 770px 20px 0;
+}
+
+.quatation-part h5 {
+  font-size  : 16px;
+  padding-top: 10px;
+}
+
+.quatation-part h6 {
+  font-size: 12px;
+}
+
+/*quatation part end*/
+/*contact part start*/
+.contact-part {
+  background-color: #356879;
+}
+
+.contact-part .left-part {
+  background-color: #4f647d;
+  margin-top      : 50px;
+  border-radius   : 3px;
+  color           : #f7fafd;
+  margin-bottom   : 50px;
+}
+
+.contact-part .left-part button {
+  margin-bottom: 5px;
+}
+
+.form-control {
+  border: 1px solid rgb(54, 53, 53);
+}
+
+.contact-part .rightone-part {
+  margin-top      : 50px;
+  background-color: #4f647d;
+  border-radius   : 3px;
+}
+
+/*for rightone part start*/
+.contact-part .rightone-part h3 {
+  color         : #ffffff;
+  font-size     : 18px;
+  text-transform: uppercase;
+  padding       : 30px 0 15px 15px;
+}
+
+.contact-part .rightone-part h5 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 0 15px;
+  color    : #bbc1c9;
+}
+
+.contact-part .rightone-part h6 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 10px 15px;
+  color    : #bbc1c9;
+}
+
+/*for rightone part end*/
+
+/*for righttow part start*/
+.contact-part .righttow-part {
+  margin-top      : 50px;
+  background-color: #4f647d;
+  border-radius   : 3px;
+  margin-top      : 5px;
+}
+
+.contact-part .righttow-part h3 {
+  color         : #ffffff;
+  font-size     : 18px;
+  text-transform: uppercase;
+  padding       : 30px 0 15px 15px;
+}
+
+.contact-part .righttow-part h5 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 0 15px;
+  color    : #bbc1c9;
+}
+
+.contact-part .righttow-part h6 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 10px 15px;
+  color    : #bbc1c9;
+}
+
+/*for rightow part end*/
+/*for righthree part start*/
+.contact-part .rightthree-part {
+  margin-top      : 50px;
+  background-color: #4f647d;
+  border-radius   : 3px;
+  margin-top      : 5px;
+  margin-bottom   : 50px;
+}
+
+.contact-part .rightthree-part h3 {
+  color         : #ffffff;
+  font-size     : 18px;
+  text-transform: uppercase;
+  padding       : 30px 0 15px 15px;
+}
+
+.contact-part .rightthree-part h5 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 0 15px;
+  color    : #bbc1c9;
+}
+
+.contact-part .rightthree-part h6 {
+  color    : #ffffff;
+  font-size: 12px;
+  padding  : 0 0 10px 15px;
+  color    : #bbc1c9;
+}
+
+/*for rightthree part end*/
+
+/*contact part end*/
+/*last part start*/
+.last-part .icon-part {
+  text-align: center;
+  padding   : 50px 0;
+}
+
+.last-part .icon-part .twiter a {
+  color: rgb(148, 40, 40);
+}
+
+.last-part .icon-part .linkdin a {
+  color: rgb(224, 218, 218);
+}
+
+.last-part .icon-part .behance a {
+  color: rgb(224, 218, 218);
+}
+
+.last-part .icon-part .dribbble a {
+  color: rgb(224, 218, 218);
+}
+
+.last-part h6 {
+  color        : #ffffff;
+  text-align   : center;
+  font-size    : 12px;
+  margin-top   : -56px;
+  margin-bottom: 50px;
+}
+
+.last-part {
+  background-color: #222222;
+}
+
+/*last part end*/
